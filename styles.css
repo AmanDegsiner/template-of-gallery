@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&family=IBM+Plex+Sans:ital,wght@1,300&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.infocontainer{
+height: 60vh;
+width: 80vw;
+margin: 150px auto;
+display: flex;
+justify-content: space-around;
+}
+
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about {
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.moreabout {
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divPic img {
+    height: 40vh;
+    border-radius: 60px;
+}
+
+.main {
+    width: 95vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    margin-left: 20px;
+}
+
+.box{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.box-other{
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.box-0{
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+img:hover{
+    transform: scale(1.3,1.2);
+    transition: 1s;
+}
+
+hr{
+  border: dotted #b4ffff 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
